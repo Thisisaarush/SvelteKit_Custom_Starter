@@ -1,8 +1,13 @@
-# Svelte Custom Starter
+# ⭐ Svelte Custom Starter
 
 <img src="./static//svelte.svg" alt="sveltekit" width="100">
 
-## Features
+## Prerequisites
+
+- NodeJS >= 18
+- pnpm >= 8
+
+## Built-in Features
 
 - SvelteKit
 - Typescript
