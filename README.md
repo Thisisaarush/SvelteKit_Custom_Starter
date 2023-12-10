@@ -1,4 +1,4 @@
-# ⭐ Svelte Custom Starter
+# ⭐ SvelteKit Custom Starter
 
 <img src="./static//svelte.svg" alt="sveltekit" width="100">
 
