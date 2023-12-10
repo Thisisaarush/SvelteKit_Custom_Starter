@@ -2,6 +2,7 @@
 	"name": "svelte-custom-starter",
 	"version": "0.0.1",
 	"private": true,
+	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
@@ -14,6 +15,9 @@
 		"test:integration": "playwright test",
 		"test:unit": "vitest"
 	},
+	"dependencies": {
+		"zod": "^3.22.4"
+	},
 	"devDependencies": {
 		"@playwright/test": "^1.28.1",
 		"@sveltejs/adapter-auto": "^2.0.0",
@@ -24,6 +28,8 @@
 		"eslint": "^8.28.0",
 		"eslint-config-prettier": "^9.0.0",
 		"eslint-plugin-svelte": "^2.30.0",
+		"flowbite": "^2.2.0",
+		"flowbite-svelte": "^0.44.20",
 		"postcss": "^8.4.32",
 		"prettier": "^3.1.1",
 		"prettier-plugin-svelte": "^3.0.0",
@@ -35,6 +41,5 @@
 		"typescript": "^5.0.0",
 		"vite": "^4.4.2",
 		"vitest": "^0.32.2"
-	},
-	"type": "module"
+	}
 }
