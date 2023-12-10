@@ -16,6 +16,8 @@
 		"test:unit": "vitest"
 	},
 	"dependencies": {
+		"@auth/core": "^0.18.5",
+		"@auth/sveltekit": "^0.3.16",
 		"zod": "^3.22.4"
 	},
 	"devDependencies": {
@@ -28,8 +30,6 @@
 		"eslint": "^8.28.0",
 		"eslint-config-prettier": "^9.0.0",
 		"eslint-plugin-svelte": "^2.30.0",
-		"flowbite": "^2.2.0",
-		"flowbite-svelte": "^0.44.20",
 		"postcss": "^8.4.32",
 		"prettier": "^3.1.1",
 		"prettier-plugin-svelte": "^3.0.0",
