@@ -3,7 +3,7 @@
 	import { page } from '$app/stores';
 </script>
 
-<div class="flex min-h-screen flex-col items-center justify-center gap-6">
+<main class="flex min-h-screen flex-col items-center justify-center gap-6">
 	<img src="/svelte.svg" alt="svelte icon" width="80px" />
 	<h1 class="text-2xl font-bold text-orange-600">SvelteKit</h1>
 	<p>
@@ -35,7 +35,7 @@
 			</div>
 		{/if}
 	</p>
-</div>
+</main>
 
 <style lang="postcss">
 	:global(html) {

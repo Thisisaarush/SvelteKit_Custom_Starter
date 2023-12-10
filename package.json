@@ -18,6 +18,8 @@
 	"dependencies": {
 		"@auth/core": "^0.18.5",
 		"@auth/sveltekit": "^0.3.16",
+		"@tanstack/svelte-query": "^5.13.4",
+		"axios": "^1.6.2",
 		"zod": "^3.22.4"
 	},
 	"devDependencies": {
